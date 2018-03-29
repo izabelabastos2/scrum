@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+  <TextView
+      android:id="@+id/nada"
+      android:layout_width="110dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:layout_weight="0.53" />
+    
+    <TextView
+        android:id="@+id/tiempo"
+        android:layout_width="204dp"
+        android:layout_height="149dp"
+        android:layout_gravity="center" 
+        android:textSize="80dp" />
+
+    <TextView
+        android:id="@+id/tarefas"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" 
+        android:layout_weight="0.33"
+        android:text="Que hiciste ayer?" />
+
+    <!-- <TextView android:padding="10dp" /> -->
+    
+    <TextView
+        android:id="@+id/dificuldades"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.32"
+        android:text="Donde te quedaste bloqueado?" />
+
+    <TextView
+        android:id="@+id/planes"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.33"
+        android:text="Que vas hacer hoy?" />
+
+    <!-- <TextView android:padding="10dp" /> -->
+
+
+    <!-- </TableLayout> -->
+    
+    <TextView
+        android:id="@+id/nada2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.32"/>
+
+</LinearLayout>

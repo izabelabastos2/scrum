@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Scrum 15: Reunion</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_surprise_view">SurpriseView</string>
+    <string name="title_activity_fim">FimActivity</string>
+
+</resources>

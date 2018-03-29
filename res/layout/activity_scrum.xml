@@ -1,0 +1,68 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/nada"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.76"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <TextView
+         android:id="@+id/tiempo"
+         android:layout_width="232dp"
+         android:layout_height="84dp"
+         android:layout_gravity="center"
+         android:layout_weight="0.57"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textSize="40dp" />
+   
+    <TextView
+        android:id="@+id/tarefas"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.12"
+        android:text="Que hiciste ayer?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25dp" />
+
+    <!-- <TextView android:padding="10dp" /> -->
+    
+    <TextView
+        android:id="@+id/dificuldades"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.98"
+        android:text="Donde te quedaste bloqueado?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/planes"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1.44"
+        android:text="Que vas hacer hoy?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25dp" />
+
+    <!-- <TextView android:padding="10dp" /> -->
+
+
+    <!-- </TableLayout> -->
+    
+    <TextView
+        android:id="@+id/nada2"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.32"/>
+
+</LinearLayout>
